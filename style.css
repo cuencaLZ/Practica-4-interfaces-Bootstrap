@@ -1,0 +1,25 @@
+#M2 #Login a {
+    color: blue;
+
+}
+#M2 button {
+   margin-left:-8%;
+
+}
+#M1 .nav-item {
+   border: solid 1px;
+   margin-left: 15%;
+   border-radius: 14%;
+   color: black;
+   background-color: #f1f1f0;
+
+}
+#M1 .nav-item li a {
+
+    color: black;
+ 
+ }
+#navColor {
+    background-color: #5e83ba;
+ 
+ }
