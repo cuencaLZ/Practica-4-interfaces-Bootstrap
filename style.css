@@ -8,7 +8,7 @@
 }
 #M1 .nav-item {
    border: solid 1px;
-   margin-left: 15%;
+   margin-left: 13%;
    border-radius: 14%;
    color: black;
    background-color: #f1f1f0;
@@ -23,3 +23,23 @@
     background-color: #5e83ba;
  
  }
+ #ico{
+    width: 100px;
+    height: 100px;
+ }
+ html{
+    background-color: #bbdddf;
+ }
+#Titulo {
+  background-image: url("img/portada2.jpg");
+
+ }
+ #Titulo h1 {
+  color:#EC5CEE;
+  font-family: fantasy;
+  font-size: 75px;
+  }
+  #anuncio{
+     background-color:  #bbdddf;
+
+  }
