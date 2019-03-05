@@ -1,3 +1,4 @@
+
 #M2 #Login a {
     color: blue;
 
@@ -29,6 +30,11 @@
  }
  body {
     background-color: #bbdddf;
+    max-width: 1400px;
+    width: 1400px;
+    margin-left: 2vw !important; 
+    margin-right: 2vw !important; 
+   
  }
 #Titulo {
   background-image: url("img/portada2.jpg");
@@ -42,6 +48,7 @@
   #anuncio{
      background-color:  #bbdddf;
     padding-top: 5px;
+    margin: auto;
      
 
   }
