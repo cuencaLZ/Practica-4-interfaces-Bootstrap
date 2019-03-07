@@ -210,3 +210,8 @@ Pagina Categoria ////////////////////////////////////////
    border: solid black 5px;
    background-color: rgb(196, 75, 0, 0.5);
 }
+.TableTop{
+   border: solid rgb(255, 176, 131) 5px;
+   background-color: rgb(0, 254, 252, 0.3);
+
+}
