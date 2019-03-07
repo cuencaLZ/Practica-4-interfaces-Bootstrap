@@ -95,6 +95,10 @@ height: 245px;
 #row2{
    margin-top: 3%;
 }
+#row3{
+   margin-top: 0.5%;
+   padding-bottom: 1%;
+}
 #indi{
    margin-bottom: -15px;
    width: 100%;
@@ -118,4 +122,25 @@ height: 245px;
 }
 footer{
    background-color: #5e83ba;
+}
+#table2 {
+   border: solid black 5px;
+
+}
+#table2 tr {
+   border: solid black 5px;
+}
+#table2 th {
+   border: solid black 5px;
+}
+#table2 td {
+   border: solid black 5px;
+}
+#tabl {
+  height: 245px !important;
+margin-top: -2vw;
+}
+#Sus{
+  margin-left: 2vw;
+  
 }
