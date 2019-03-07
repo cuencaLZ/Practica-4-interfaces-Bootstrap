@@ -201,4 +201,12 @@ Pagina Categoria ////////////////////////////////////////
       width: 50px;
       height: 50px;
    }
+
+#Drow{
+   margin-top: 1%;
+
+}
+.Tfila{
+   border: solid black 5px;
+   background-color: rgb(196, 75, 0, 0.5);
 }
