@@ -166,10 +166,23 @@ Pagina Categoria ////////////////////////////////////////
 }
 .listS li{
    float: left;
-   margin-left: 7%;
+   margin-right: 13%;
    text-decoration: none;
 }
 .listS {
    text-decoration: none;
 
+}
+#subC {
+   background-color: rgb(229, 224, 140, 0.5);
+   margin-left: 3px;
+   border:9px double #9e9acc;
+}
+#subC h3{
+   margin-left: 4vw;
+}
+#subM li{
+   float: left;
+   margin-right: 2%;
+   text-decoration: none;
 }
