@@ -74,6 +74,10 @@
    margin-top: 5px;
    padding: 3%;
 }
+.mapa{
+   width: 300px;
+   height: 200px;
+}
 .Oferta #IMG {
  width: 200px;
  height: 150px;
@@ -138,9 +142,16 @@ footer{
 }
 #tabl {
   height: 245px !important;
-margin-top: -2vw;
+margin-top: -4vw;
 }
 #Sus{
   margin-left: 2vw;
   
 }
+#mapB{
+   margin-left: 100px;
+   margin-top:6px; 
+ }
+ #medio{
+    margin-right: 20px;
+ }
