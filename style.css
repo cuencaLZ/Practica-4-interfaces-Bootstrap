@@ -1,4 +1,6 @@
-
+/*
+Pagina Home y cosas comunes de todas las paginas.
+*/
 #M2 #Login a {
     color: blue;
 
@@ -155,3 +157,19 @@ margin-top: -4vw;
  #medio{
     margin-right: 20px;
  }
+ /*
+Pagina Categoria ////////////////////////////////////////
+*/
+#H2C h2{
+   font-family: 'Paytone One', sans-serif;
+   margin-left: 6vw;
+}
+.listS li{
+   float: left;
+   margin-left: 7%;
+   text-decoration: none;
+}
+.listS {
+   text-decoration: none;
+
+}
