@@ -168,9 +168,12 @@ margin-top: -4vw;
 #login .Mtext{
    color: #56385e;
    font-family: 'Anton', sans-serif;
+   background-color: rgb(247, 146, 38, 0.3);
+   border-radius: 5px;
 }
 #login #Rf{
    margin-left: 73%;
+   
 }
  /*
 Pagina Categoria ////////////////////////////////////////
@@ -237,6 +240,7 @@ Pagina Subcategoria ////////////////////////////////////////
 
 .Th2 {
    font-family: 'Bungee Inline', cursive;
+   margin-left: 15%;
 }
 .form-check{
    float: left;
@@ -302,4 +306,16 @@ margin-left: 10%;
    margin-left: 40%;
    margin-top: 4%;
    margin-bottom: 3%;
+}
+#imgSubC{
+   width: 100px;
+   height: 100px;
+}
+.TableSub .medio{
+   margin-top: 35px;
+}
+.TableSub{
+   border: solid rgb(192, 192, 192) 5px;
+   background-color: rgb(70, 130, 180);
+
 }
