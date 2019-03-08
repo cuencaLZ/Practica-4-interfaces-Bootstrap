@@ -157,6 +157,21 @@ margin-top: -4vw;
  #medio{
     margin-right: 20px;
  }
+
+ #registro .Mtext{
+   color:  #56385e;
+   font-family: 'Anton', sans-serif;
+}
+#registro #Rf{
+   margin-left: 80%;
+}
+#login .Mtext{
+   color: #56385e;
+   font-family: 'Anton', sans-serif;
+}
+#login #Rf{
+   margin-left: 73%;
+}
  /*
 Pagina Categoria ////////////////////////////////////////
 */
@@ -281,3 +296,4 @@ margin-left: 10%;
    margin-top: 4%;
    margin-bottom: 3%;
 }
+

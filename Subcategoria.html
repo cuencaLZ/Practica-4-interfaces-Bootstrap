@@ -6,16 +6,14 @@
     <title>Subcategoria</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
         crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 </head>
 
@@ -64,11 +62,11 @@
                                     <input class="form-control" type="text" />
                                 </form>
                                 <li id="CA" class="nav-item">
-                                    <a class="nav-link" href="#"><img src="img/CA.ico" /><span
-                                            class="sr-only"></span></a>
+                                    <a class="nav-link" href="#"><img src="img/CA.ico" /><span class="sr-only"></span></a>
                                 </li>
                                 <li id="Login" class="nav-item">
-                                    <a class="nav-link" href="#">Login/Registrarse<span class="sr-only"></span></a>
+                                    <a class="nav-link" href="#" data-toggle="modal" data-target="#identificacion">Login/Registrarse<span
+                                            class="sr-only"></span></a>
                                 </li>
                             </ul>
                         </div>
@@ -101,38 +99,38 @@
                     <form role="form">
                         <div class="form-check">
                             <label class="form-check-label" for="radio1">
-                                <input type="radio" class="form-check-input" id="radio1" name="optradio"
-                                    value="option1">Mas economico
+                                <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1">Mas
+                                economico
                             </label>
                         </div>
                         <div class="form-check">
                             <label class="form-check-label" for="radio2">
-                                <input type="radio" class="form-check-input" id="radio2" name="optradio"
-                                    value="option2">Mayor precio
+                                <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Mayor
+                                precio
                             </label>
                         </div>
                         <div class="form-check">
                             <label class="form-check-label" for="radio3">
-                                <input type="radio" class="form-check-input" id="radio3" name="optradio"
-                                    value="option3">Mas vendidos
+                                <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3">Mas
+                                vendidos
                             </label>
                         </div>
                         <div class="form-check">
                             <label class="form-check-label" for="radio4">
-                                <input type="radio" class="form-check-input" id="radio4" name="optradio"
-                                    value="option4">Mejor puntuacion
+                                <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4">Mejor
+                                puntuacion
                             </label>
                         </div>
                         <div class="form-check">
                             <label class="form-check-label" for="radio5">
-                                <input type="radio" class="form-check-input" id="radio5" name="optradio"
-                                    value="option5">Mas comentados
+                                <input type="radio" class="form-check-input" id="radio5" name="optradio" value="option5">Mas
+                                comentados
                             </label>
                         </div>
                         <div class="form-check">
                             <label class="form-check-label" for="radio6">
-                                <input type="radio" class="form-check-input" id="radio6" name="optradio"
-                                    value="option6">Mas actual
+                                <input type="radio" class="form-check-input" id="radio6" name="optradio" value="option6">Mas
+                                actual
                             </label>
                         </div>
                     </form>
@@ -163,20 +161,20 @@
                         </div>
                     </div>
                     <div class="row" id="Precio">
-                            <h6>Precio</h6>
-                            <div class="select">
-                                <label>
-                                    <input type="select" /> Precio Superior
-                                </label>
-                                <label>
-                                    <input type="select" /> Precio inferior
-                                </label>
-                            </div>
+                        <h6>Precio</h6>
+                        <div class="select">
+                            <label>
+                                <input type="select" /> Precio Superior
+                            </label>
+                            <label>
+                                <input type="select" /> Precio inferior
+                            </label>
+                        </div>
 
                     </div>
                     <button type="submit" class="btn btn-primary">
-                            Filtrar
-                        </button>
+                        Filtrar
+                    </button>
                 </div>
             </div>
         </div>
@@ -208,23 +206,19 @@
 
                     <ul id="Social" class="list-unstyled">
                         <li>
-                            <a class="nav-link" href="#"><img
-                                    src="https://image.flaticon.com/icons/png/512/33/33702.png" /><span
+                            <a class="nav-link" href="#"><img src="https://image.flaticon.com/icons/png/512/33/33702.png" /><span
                                     class="sr-only"></span></a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#"><img
-                                    src="https://image.flaticon.com/icons/png/512/23/23681.png" /><span
+                            <a class="nav-link" href="#"><img src="https://image.flaticon.com/icons/png/512/23/23681.png" /><span
                                     class="sr-only"></span></a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#"><img
-                                    src="https://image.flaticon.com/icons/png/512/27/27961.png" /><span
+                            <a class="nav-link" href="#"><img src="https://image.flaticon.com/icons/png/512/27/27961.png" /><span
                                     class="sr-only"></span></a>
                         </li>
                         <li>
-                            <a class="nav-link" href="#"><img
-                                    src="https://image.flaticon.com/icons/png/512/2/2674.png" /><span
+                            <a class="nav-link" href="#"><img src="https://image.flaticon.com/icons/png/512/2/2674.png" /><span
                                     class="sr-only"></span></a>
                         </li>
                     </ul>
@@ -237,6 +231,92 @@
 
     </footer>
     </div>
+    <div class="modal fade" id="identificacion">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#login"><i class="fas fa-user mr-1"></i>
+                            Iniciar Sesión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#registro"><i class="fas fa-user-plus mr-1"></i>
+                            Registrar</a>
+                    </li>
+                </ul>
+
+
+                <div class="tab-content" style="background: linear-gradient(rgba(253, 248, 204, 0.6), rgba(240, 201, 202, 0.7)), url('https://img.myloview.es/vinilos/dibujado-a-mano-vector-patron-transparente-de-zapatos-fondo-blanco-y-negro-400-72026742.jpg') ; background-size: cover;">
+                    <div class="tab-pane active" id="login">
+                        <div class="modal-body">
+                            <form data-toggle="validator">
+                                <div>
+                                    <label for="loginEmail" class="control-label">
+                                        <div class="Mtext">Email</div>
+                                    </label>
+                                    <input type="email" id="loginEmail" class="form-control" required>
+                                </div>
+                                <div>
+                                    <label for="loginPassword" class="control-label">
+                                        <div class="Mtext">Contraseña</div>
+                                    </label>
+                                    <input type="password" id="loginPassword" class="form-control" required>
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn my-button" id="Rf">
+                                        <div class="Mtext">Iniciar Sesión</div>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <div class="tab-pane fade" id="registro">
+                        <div class="modal-body">
+                            <form>
+                                <div>
+                                    <label for="registerEmail" class="control-label">
+                                        <div class="Mtext">Email</div>
+                                    </label>
+                                    <input type="email" id="registerEmail" class="form-control" required>
+                                </div>
+                                <div>
+                                    <label for="registerPassword" class="control-label">
+                                        <div class="Mtext">Contraseña</div>
+                                    </label>
+                                    <input type="password" id="registerPassword" class="form-control" required>
+                                </div>
+                                <div>
+                                    <label for="registerPassword2" class="control-label">
+                                        <div class="Mtext">Repetir contraseña</div>
+                                    </label>
+                                    <input type="password" id="registerPassword2" class="form-control" required>
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn my-button" id="Rf">
+                                        <div class="Mtext">Regístrar</div>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        bootstrapValidate('#loginEmail', 'email:El Email introducido es inválido');
+        bootstrapValidate('#registerEmail', 'email:El Email introducido es inválido');
+        bootstrapValidate('#registerPassword2', 'matches:#registerPassword:Las contraseñas no coinciden');
+        bootstrapValidate('#loginEmail', 'required:El Email es requerido');
+        bootstrapValidate('#loginPassword', 'required:La contraseña es requerida');
+        bootstrapValidate('#registerEmail', 'required:El Email es requerido');
+        bootstrapValidate('#registerPassword', 'required:La contraseña es requerida')
+        bootstrapValidate('#registerPassword2', 'required:La contraseña es requerida')
+    </script>
 
 </body>
 
