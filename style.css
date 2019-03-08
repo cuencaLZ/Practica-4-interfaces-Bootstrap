@@ -225,8 +225,59 @@ Pagina Subcategoria ////////////////////////////////////////
 }
 .form-check{
    float: left;
-   margin-right: 5%;
+   margin-left: 5%;
 }
 #Orde{
    margin-left: 5%;
+   background-color: rgb(255, 179, 0, 0.5);
+   border: solid #FF6F00 5px;
+}
+#Orde h6{
+   margin-left: 27%;
+}
+#Orde button{
+   margin-left: 30%;
+   margin-top: 4%;
+   margin-bottom: 4%;
+}
+#Filtrar{
+   margin-top: 5%;
+   margin-left: 5%;
+   background-color: #FFF3E0;
+   border: solid #FFAB91 5px;
+}
+#Valor {
+   background-color: #b0b8b9;
+   margin-left: 2.5%;
+}
+#Valor .checkbox {
+   margin-left: 12%;
+}
+#Valor h6{
+   margin-right: 8%;
+   margin-left: 25%;
+}
+#Valor label  {
+float: left;
+margin-left: 10%;
+}
+#Precio {
+   margin-top: 5%;
+}
+#Precio h6 {
+   margin-left: 32%;
+}
+#Precio label  {
+   float: left;
+   margin-left: 10%;
+   }
+#Filtrar button{
+      margin-left: 30%;
+      margin-top: 4%;
+      margin-bottom: 4%;
+}
+#Filtrar h5 {
+   margin-left: 40%;
+   margin-top: 4%;
+   margin-bottom: 3%;
 }
