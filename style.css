@@ -340,3 +340,14 @@ Pagina Producto ////////////////////////////////////////
    border: solid silver 2px;
 
 }
+.TablePro{
+   background-color: #FFF3E0;
+   border: solid black 2px;
+}
+.TablePro .bt{
+   background-color: #FFF3E0;
+   border-bottom: solid black 5px;
+}
+#info {
+   margin-top: 5%;
+}
