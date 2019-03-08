@@ -223,3 +223,10 @@ Pagina Subcategoria ////////////////////////////////////////
 .Th2 {
    font-family: 'Bungee Inline', cursive;
 }
+.form-check{
+   float: left;
+   margin-right: 5%;
+}
+#Orde{
+   margin-left: 5%;
+}
