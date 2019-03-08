@@ -257,20 +257,22 @@ Pagina Subcategoria ////////////////////////////////////////
 }
 #Filtrar{
    margin-top: 5%;
+   margin-bottom: 5%;
    margin-left: 5%;
    background-color: #FFF3E0;
    border: solid #FFAB91 5px;
 }
 #Valor {
    background-color: #b0b8b9;
-   margin-left: 2.5%;
+   margin-left: 1.5%;
+   border: solid black 3px;
 }
 #Valor .checkbox {
    margin-left: 12%;
 }
 #Valor h6{
    margin-right: 8%;
-   margin-left: 25%;
+   margin-left: 35%;
 }
 #Valor label  {
 float: left;
@@ -278,16 +280,21 @@ margin-left: 10%;
 }
 #Precio {
    margin-top: 5%;
+   margin-left: 2%;
+   background-color: steelblue;
+   padding: 0;
+   border: solid black 3px;
 }
 #Precio h6 {
-   margin-left: 32%;
+   margin-left: 40%;
 }
 #Precio label  {
    float: left;
-   margin-left: 10%;
+   margin-left: 9%;
+   width: 124px;
    }
 #Filtrar button{
-      margin-left: 30%;
+      margin-left: 38%;
       margin-top: 4%;
       margin-bottom: 4%;
 }
@@ -296,4 +303,3 @@ margin-left: 10%;
    margin-top: 4%;
    margin-bottom: 3%;
 }
-
